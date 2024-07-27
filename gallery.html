@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patel Studios | Portfolio</title>
+    <link rel="icon" href="https://res.cloudinary.com/abhishek25/image/upload/v1621011723/nj_vzpbc2.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gstyles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <style>
+        header {
+            background-image: url("header/portfolio.jpg");
+            background-position: top;
+            background-size: contain;
+            height: 50vh;
+            background-repeat: no-repeat;
+        }
+
+        @media screen and (max-width: 768px){
+            header{
+                background-image: url("header/portfolio_1.jpg");
+                height: 52vh;
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding: 0;
+            }
+            .services_text_img2 img {
+                height: 130px;
+                margin-bottom: 3rem;
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+
+    <header>
+
+        <div class="header">
+            <input type="checkbox" id="toggleMenu" hidden>
+            <label for="toggleMenu">
+                Menu
+            </label>
+            <img src="imgs/logo.png" alt="" width="200px" style="margin-top: 20px;" onclick="window.location.href ='/'">
+            <nav>
+
+                <div class="fullMenu menu">
+                    <ul>            
+                        <li><a href="/">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu" id="collMenu">
+                    <ul>            
+                        <li><a href="/">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+<body>
+
+    <section style="padding: 0;margin-bottom: -4rem;" class="services_text_img2">
+        <img src="header/portfolio_text.jpg" alt="">
+    </section>
+    <div class="container">
+        
+        <!-- <div class="title">
+            <h1>Your wedding, our customization</h1>
+            <p>There are many variations of passages of Lorem Ipsum available,All the Lorem Ipsum generators on the Internet
+            but the majority have suffered alteration in some form, by injected humour,first true generator on
+            or randomised words which don’t look even slightly believable.</p>
+        </div> -->
+
+        <div class="portfolio" id="portfolio">
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011072/_MNS6553-303_copy_sirlgl.jpg" alt="">
+            </div>
+
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011078/2_crj48a.jpg" alt="">
+            </div>
+
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011075/8_bqxltb.jpg" alt="">
+            </div>
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011073/12_olah9o.jpg" alt="">
+            </div>
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011072/13_nheexr.jpg" alt="">
+            </div>
+
+            <div class="album mega">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011075/6_w2ufga.jpg" alt="">
+            </div>
+
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011074/9_etodho.jpg" alt="">
+            </div>
+
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011073/11_yeew2y.jpg" alt="">
+            </div>
+
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011074/10_loom1r.jpg" alt="">
+            </div>
+
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011078/5_tsxamz.jpg" alt="">
+            </div>
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011075/7_xbdjxb.jpg" alt="">
+            </div>
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011078/4_pib0bv.jpg" alt="">
+            </div>
+            <div class="album">
+                <img src="https://res.cloudinary.com/dnlphduvb/image/upload/v1621011078/3_v7da7f.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="new_footer">
+            <div class="footer__social">
+              <a href="https://www.facebook.com/patelstudio"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/patelstudio/"><i class="fab fa-instagram"></i></a>
+              <a href="mailto:patelstudio@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div><br>
+            <div class="footer__info">
+                <p class="laptop">Patel STUDIO PHOTOGRAPHY &emsp;  Bhavanagar,Gujarat - 364002  &emsp; +91-97829-11284 &emsp; pateltudio@gmail.com</p>
+                <p class="none"><span style="font-weight: bold; opacity: 0.8;">Patel STUDIO PHOTOGRAPHY </span>&nbsp;Bhavanagar, <br>  Gujarat - 364002 <br> +91-97829-11284 <br> pateltudio@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
